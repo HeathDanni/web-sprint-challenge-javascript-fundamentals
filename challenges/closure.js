@@ -1,7 +1,7 @@
 // ==== Closures ==== 
 
 /* Task 1: Study the code below and explain in your own words why nested function can access the variable internal. */
-
+    
 
 const external = "I'm outside the function";
 
@@ -16,7 +16,10 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+/* Explanation: 
+
+    The nestedFunction can access the variable internal because it is not closed away from nestedFunction.
+    Variables can be accessed by reaching outside of a function or block, but you can not reach inside of a closer to access them.*/
 
 
 /* Task 2: Counter */
